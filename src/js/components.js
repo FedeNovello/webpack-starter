@@ -5,7 +5,7 @@ import webpacklogo from '../assets/img/webpack-logo.png';
 export const saludar = (nombre) => {
 
     console.log('Creando eriqueta h1');
-
+    console.log('probando');
     const h1 = document.createElement('h1');
     h1.innerText = `Hola, ${nombre}`;
 
@@ -17,3 +17,4 @@ export const saludar = (nombre) => {
     img.src = webpacklogo;
     document.body.append(img);
 }
+
